@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Echo Script - Official App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        background: #f0f4f8;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 40px 15px;
+      }
+
+      .container {
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        max-width: 480px;
+        width: 100%;
+        text-align: center;
+        padding: 40px 30px;
+        animation: fadeIn 0.8s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+        color: #2c3e50;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 30px;
+        color: #555;
+      }
+
+      .download-btn {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 14px 30px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        transition: background 0.3s ease;
+      }
+
+      .download-btn:hover {
+        background-color: #1a252f;
+      }
+
+      .whats-new {
+        margin-top: 35px;
+        text-align: left;
+      }
+
+      .whats-new h3 {
+        font-size: 1.2rem;
+        color: #2c3e50;
+        margin-bottom: 10px;
+      }
+
+      .whats-new ul {
+        padding-left: 20px;
+        margin: 0;
+        color: #555;
+      }
+
+      .footer {
+        margin-top: 40px;
+        font-size: 0.9rem;
+        color: #888;
+        text-align: center;
+      }
+
+      @media (max-width: 600px) {
+        body {
+          padding: 30px 10px;
+        }
+
+        .container {
+          padding: 30px 20px;
+        }
+
+        h1 {
+          font-size: 1.6rem;
+        }
+
+        .download-btn {
+          padding: 12px 24px;
+          font-size: 0.95rem;
+        }
+
+        .whats-new h3 {
+          font-size: 1rem;
+        }
+
+        .footer {
+          font-size: 0.85rem;
+        }
+      }
+
+      @media (max-width: 360px) {
+        h1 {
+          font-size: 1.4rem;
+        }
+
+        .download-btn {
+          width: 100%;
+          padding: 12px 0;
+        }
+
+        .logo {
+          width: 64px;
+          height: 64px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="AppIcon_RoundTrans.png" alt="Echo Script Logo" class="logo" />
+      <h1>Echo Script</h1>
+      <p>Your smart companion to write, edit & organize lyrics beautifully.</p>
+
+      <a
+        class="download-btn"
+        href="https://rksdevechoscript.netlify.app/Echo-Script-v1.1.apk"
+        download
+      >
+        ⬇️ Download APK (v1.1)
+      </a>
+
+      <div class="whats-new">
+        <h3>📌 What's New:</h3>
+        <ul>
+          <li>✔️ Minor bug fixes</li>
+          <li>⚡ Improved lyrics editor performance</li>
+          <li>🎤 Cleaner interface for dark mode</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">© 2025 Echo Script · Made with ❤️ by Rehan Sahu</div>
+  </body>
+</html>
