@@ -1,5 +1,6 @@
 {
-  "latest_version": "2.0.0",
+  "latest_version": "3.0.0",
   "apk_url": "https://rksdevechoscript.netlify.app",
-  "whats_new": "- Updated app name and logo\n- Minor performance and UI improvements\n- Internal code cleanup and optimization"
+  "whats_new": "- Device Management added\n- Import/Export enabled\n- Performance & UI improved\n- Code optimized"
 }
+
